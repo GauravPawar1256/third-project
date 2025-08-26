@@ -1,11 +1,11 @@
+import React from "react";
+import Greetings from "./Greetings";  
 
-import './App.css';
-import Greetings from './Greetings';
-function App() {
-
+export default function App() {
+  
   return (
-    <Greetings/>
+    <div>
+      <Greetings name="Gaurav" age="25" />
+    </div>
   );
 }
-
-export default App;

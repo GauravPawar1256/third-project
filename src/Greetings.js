@@ -1,8 +1,12 @@
-function Greetings(){
+import React from "react";
 
-
-return(
-    <h1>hello world</h1>
-);
+function Greetings({ name, age }) {
+    
+  return (
+    <h2>
+      My name is {name} and I am {age} years old.
+    </h2>
+  );
 }
-export default Greetings;
+
+export default Greetings; 
