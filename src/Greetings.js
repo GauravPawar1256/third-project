@@ -1,11 +1,11 @@
 import React from "react";
 
-function Greetings({ name, age }) {
-    
+function Greetings(props) {
+
   return (
-    <h2>
-      My name is {name} and I am {age} years old.
-    </h2>
+    props.Name.map((singleElement)=>{
+        return <h1> hello {singleElement}</h1>
+    })
   );
 }
 

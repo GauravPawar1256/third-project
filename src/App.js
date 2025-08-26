@@ -2,10 +2,12 @@ import React from "react";
 import Greetings from "./Greetings";  
 
 export default function App() {
-  
+  const student=[
+    'Gaurav','Shardul','Shravani','Rutuja','Trusha','Ayush','Anamika','Apeksha','Nikita',
+  ];
   return (
     <div>
-      <Greetings name="Gaurav" age="25" />
+     <Greetings Name={student}/>
     </div>
   );
 }
